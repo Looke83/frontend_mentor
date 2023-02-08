@@ -1,0 +1,54 @@
+/*import czcionek */
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+* {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+body {
+  height: 100vh;
+  max-width: 1440px;
+  background-color: hsl(212deg, 45%, 89%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 599px) {
+  body {
+    max-width: 599px;
+  }
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 1.4em;
+}
+
+.container {
+  padding: 20px;
+  background-color: hsl(0deg, 0%, 100%);
+  width: 250px;
+  border-radius: 10px;
+  padding-bottom: 30px;
+}
+
+.text {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+img {
+  border-radius: 10px;
+  width: 100%;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228deg, 45%, 44%);
+}/*# sourceMappingURL=style.css.map */
